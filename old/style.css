@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins", serif;
+}
+
+section {
+    padding: 5%;
+}
+section h1 {
+    font-size: 48px;
+    padding-bottom: 5%;
+}
+
+.product-container {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .content a img {
+    width: 20px;
+}
+
+
+
+@media screen and (max-width:780px) {
+    .card {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    section h1 {
+        font-size: 32px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card h5 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 230px) {
+    section h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+/* new */
+header {
+    display: flex;
+    padding: 16px 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu ul {
+    display: flex;
+    gap: 40px;
+}
+header .menu ul li {
+    list-style-type: none;
+    font-weight: 400;
+    text-transform: uppercase;
+}
